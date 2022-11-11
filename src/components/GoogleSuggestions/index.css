@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.image {
+  width: 20vw;
+}
+.container {
+  height: 100vh;
+  /* padding: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 0px 4px 16px 0px;
+  cursor: point;
+  outline: none;
+  height: 400px;
+  width: 600px;
+  border-radius: 8px;
+}
+.input-search {
+  border: none;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.icon-image {
+  height: 20px;
+  width: 20px;
+}
+.suggestions-list {
+  padding: 10px;
+}
+.input-card {
+  padding: 10px;
+}
